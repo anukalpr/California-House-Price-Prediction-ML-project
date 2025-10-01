@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read CSV file
-data = pd.read_csv("california.csv")
+data = pd.read_csv("https://github.com/anukalpr/California-House-Price-Prediction-ML-project/blob/main/california.csv")
 
 # Convert categorical data to numerical data
 from sklearn.preprocessing import LabelEncoder
